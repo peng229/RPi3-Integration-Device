@@ -13,7 +13,7 @@ ID:11:11:11:11:11:11;HUM:42;
 # Wiring
 Connecting the DHT-11 sensor with the Arduino Nano is done as described below:
 
-Wiring details: https://github.com/JoakimHellberg/AppIoT-RPi3-Integration-Device/blob/master/Wiring.PNG
+Wiring details: https://github.com/ApplicationPlatformForIoT/RPi3-Integration-Device/blob/master/Wiring.PNG
 
 # Registration in AppIoT
 
