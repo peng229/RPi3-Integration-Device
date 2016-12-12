@@ -39,3 +39,15 @@ answer = x * input[2]/100d;
 </code>
 
 Klick OK and then save the device template.
+
+# Create a device QR-Code
+Use the MAC Address you coded into the device to generate a QR-Code for the Deployment Application to use when registering the device.
+There are several websites to use when generating a QR-Code, here is one http://www.qr-code-generator.com/ 
+
+Enter the following as content of the QR-Code: M;MAC ADDRESS;10001
+- M = Device
+- MAC ADDRESS = The Mac Address you got assigned the device.
+- 10001 = Hardware Type Id of the device type registered in AppIoT.
+Valid content would be M;11:11:11:11:11:11;10001
+
+Once generated, you could print the QR-Code and put it on the outside of the Arduino Nano to easily scan when registering using the Deployment Application.
